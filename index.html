@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-escalabre,maximun-scale=1.0">
     <link rel="stylesheet" href="estilos/estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800:1,300..800&display=swap"
-    rel="stylesheet" >
-    <title>Cafe DulceAromas</title>
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <title> Cafe DulceAromas </title>
 </head>
+
 <body>
     <header>
-        <div>
-            <nav>
-                <a href ="#" id="btn-acerca-de">Acerca de</a>
-                <a href ="#" id="btn-menu">Menu</a>
-                <a href ="#" id="btn-galeria">Galeria</a>
-                <a href ="#" id="btn-ubicacion">Ubicacion</a>
+        <div class="contenedor">
+            <nav class="menu">
+                <a href="#" id="btn-acerca-de">Acerca de</a>
+                <a href="#" id="btn-menu">Menu</a>
+                <a href="#" id="btn-galeria">Galeria</a>
+                <a href="#" id="btn-ubicacion">Ubicacion</a>
             </nav>
-            <div>
-            <h1>Cafe <span>Dulce Aromas</span></h1>
-            <h3>Un lugar donde compartir entre familia y amigos ven y disfruta esta rica experiencia</h3>
-        </div>
+            <div class="texto">
+                <h1 class="nombre"> Cafe <span> Dulce Aromas </span></h1>
+                <h3>Un lugar donde compartir entre familia y amigos ven y disfruta esta rica experiencia</h3>
+            </div>
         </div>
     </header>
     <!--Seccion main-->
-    <section>
-        <div>
-            <div>
-                <img src="imagenes/2.jpeg" alt="Acerca de">
+    <section class="main">
+        <section class="acerca-de" id="acerca-de">
+            <div class="contenedor">
+                <div class="foto">
+                <img src="imagenes/3.jpeg" alt="Acerca de">
             </div>
             <article>
-            <p>El cafe que se oferta es de una arroma deliciosos y facinatnte para tomarse en un tarde de frio</p>
-            <p>su color es de un cafe muy bonito y amigable para nuestros cliemntes</p>
+                <h3>Acerca de</h3>
+                <p>El café de especialidad se refiere a granos de café de alta calidad que se cultivan, procesan y preparan con atención meticulosa para resaltar sus características únicas de sabor, aroma y cuerpo.</p>
             </article>
         </div>
     </section>
@@ -39,56 +46,58 @@
     <!--Info de menu-->
     <section class="menu">
         <div class="contenedor">
-            <h3 class="titulo" id="platillos"Menu></h3>
+            <h3 class="titulo" id="platillos">Menu</h3>
             <div class="contenedor-menu">
-             <div class="contenedor-menu2">
-                <article>
-                    <p class="categoria"> De comer</p>
-                    <div class="platillo">
-                        <p class="nombre"> Arrzo con camaron</p>
-                        <p class="precio">$8.50</p>
-                        <p class="descripcion"> El arroz con camaron tiene lo siguiente ingredientes arroz, camaron</p>
-                    
-                    </div>
-                    <div class="platillo">
-                        <p class="nombre"> Arroz con camaron</p>
-                        <p class="precio"> $8.50</p>
-                        <p class="descripcion">El arrzo con camaron contiene los siguienetes ingredientes
-                            arroz, camaron
-                        </p>
-                    </div>
-                    <div class="platillo">
-                        <p class="nombre"> Encebollado mixto</p>
-                        <p class="precio">$8.50</p>
-                        <p class="descripcion"> El encebollado contiene los siguienets ingredienes 
-                            pescado,chifle
-                        </p>
+                <div class="contenedor-menu2">
+                    <article>
+                        <p class="categoria"> De comer</p>
+                        <div class="platillo">
+                            <p class="nombre"> Arroz con camaron</p>
+                            <p class="precio">$8.50</p>
+                            <p class="descripcion"> El arroz con camaron tiene lo siguiente ingredientes arroz, camaron.
+                            </p>
 
-                    </div>
-                </article>
-                <!--fin de la seccion de comer-->
-                <article>
-                    <p class="categoria"> Bebidas</p>
-                    <div class="platillo">
-                        <p class="nombre"> Jugos Naturales</p>
-                        <p class="precio">$4.50</p>
-                        <p class="descripcion"> Tenemos jugos naturales con batidos de leche</p>
+                        </div>
+                        <div class="platillo">
+                            <p class="nombre"> Arroz con pollo</p>
+                            <p class="precio"> $8.50</p>
+                            <p class="descripcion">El arroz con pollo contiene los siguienetes ingredientes
+                                arroz, pollo.
+                            </p>
+                        </div>
+                        <div class="platillo">
+                            <p class="nombre"> Encebollado mixto</p>
+                            <p class="precio">$7.50</p>
+                            <p class="descripcion"> El encebollado contiene los siguienets ingredienes
+                                pescado,chifle.
+                            </p>
 
-                    </div>
-                    <div class="platillo">
-                        <p class="nombre"> Pilsener</p>
-                        <p class="precio"> $3.50</p>
-                        <p class="descripcion"> La Pilsener se ofrece al clima o helada</p>
+                        </div>
+                    </article>
+                    <!--fin de la seccion de comer-->
+                    <article>
+                        <p class="categoria"> Bebidas</p>
+                        <div class="platillo">
+                            <p class="nombre"> Jugos Naturales</p>
+                            <p class="precio">$4.50</p>
+                            <p class="descripcion"> Estos son los ingredientes principales pueden incluir frutas como naranjas, manzanas, piñas, fresas.</p>
 
-                    </div>
-                    <div class="platillo">
-                        <p class="nombre">Limonada</p>
-                        <p class="precio"> $3</p>
-                        <p class="descripcion"> Es muy refrescante y deliciosa</p>
-                    </div>
-                </article>
+                        </div>
+                        <div class="platillo">
+                            <p class="nombre"> Pilsener</p>
+                            <p class="precio"> $3.50</p>
+                            <p class="descripcion">Contiene los ingredientes básicos de la cerveza, como agua, malta de cebada, lúpulo y levadura.</p>
 
-             </div>   
+                        </div>
+                        <div class="platillo">
+                            <p class="nombre">Limonada</p>
+                            <p class="precio"> $3.50</p>
+                            <p class="descripcion">El ingrediente principal de la limonada es el jugo de limón fresco.</p>
+                        </div>
+                        
+                    </article>
+
+                </div>
             </div>
 
         </div>
@@ -96,10 +105,7 @@
     </section>
     <!--Fin menu-->
     <!--Inicio Galeria-->
-    <section class="galeria" id="galeria">
-        <div class="foto">
-            <img src="imagenes/3.jpeg" alt="">
-        </div>
+    <section class="galeria" id="galeria">     
         <div class="foto">
             <img src="imagenes/4.jpeg" alt="">
         </div>
@@ -113,7 +119,7 @@
             <img src="imagenes/7.jpeg" alt="">
         </div>
         <div class="foto">
-            <img src="imagenes/8.jpeg" alt="">
+            <img src="imagenes/12.jpeg" alt="">
         </div>
         <div class="foto">
             <img src="imagenes/9.jpeg" alt="">
@@ -129,43 +135,38 @@
     <section class="ubicacion" id="ubicacion">
         <div class="contenedor">
             <h3 class="titulo">Ubicacion</h3>
-        </div>
+
         <div class="dirrecion">
-            <p class="calle">ED55 <br/>S4849</p><br>
+            <p class="calle">y Diego, Antonio de Ulloa Esq, Quito 170515, Ecuador
             <p class="telefono"> (+593) 98567847</p>
             <p class="correo"> cafe@gmail.com</p>
-
         </div>
         <div class="horarios">
             <h4>Horarios</h4>
             <p class="Entre-semana">Lunes a Viernes <br> 7:00 - 21:00</p>
             <p class="Fin de semana">Sabados y Domingos <br> 11:00 - 23:00</p>
-
+        </div>
         </div>
     </section>
 
     <!--/fin contactos-->
-    <!--inicio mapa-->
+    <!--Inicio mapa-->
     <section class="mapa">
-        <iframe 
-         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3989.7712980470646!2d-78.46769002584867!3d-0.27817199971909107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1713477132462!5m2!1ses!2sec"
-          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
-        
-         ></iframe>
-
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d997.4489348988237!2d-78.496886!3d-0.192766!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59a6a396e7a79%3A0xb00ae5ab53467167!2sInstituto%20Superior%20Tecnol%C3%B3gico%20Quito!5e0!3m2!1ses-419!2sus!4v1714058869659!5m2!1ses-419!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
-    <!--fin de mapa-->
-    <section>
-        <!--fin de seccion main-->
+    <!--Fin de mapa--> 
+</section>
+        <!--Fin de seccion main-->
         <footer>
             <div class="contenedor">
                 <div class="copyright">
-                    <p>&COPY; TODOS DERECHOS RESERVADOS IVANTRO 2024</p>
-
+                    <p>&COPY; TODOS DERECHOS RESERVADOS MAIK 2024</p>
                 </div>
             </div>
         </footer>
-    </section>
+    
 
 </body>
+
 </html>
